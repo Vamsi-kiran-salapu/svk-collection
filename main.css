@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 250%;
+}
+
+.main{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(img/book1.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+.main img{
+    height: 100%;
+    width: 100%;
+}
+
+.about{
+    height: 100vh;
+    width: 100vw;
+    background: #ededed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cat{
+    height: 190vh;
+    width: 100vw;
+    background: #ededed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.rom{
+    width: 100vw;
+    height: 200vh;
+    background: #ededed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.space{
+    height: 50vh;
+}
+
+
+
+@media only screen and (max-width:992px){
+    .rom h1{
+      margin-top:10%;  
+    }
+    }
+
+@media only screen and (max-width:500px){
+    .rom h1{
+      margin-top:20%;  
+    }
+    }
+
+
+
+
